@@ -1,0 +1,22 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "centos/7"
+  config.vm.hostname = "devtasks.webazilla.com"
+  config.vm.network "private_network", ip: "192.168.56.20"
+  config.vm.provider "virtualbox" do |vb|
+    vb.gui = false
+    vb.memory = "1024"
+    vb.cpus = 1
+    vb.name = "REDMINE"
+  end
+  config.vm.provision "shell", inline: <<-SHELL
+    yum -y update
+    yum -y install mc vim net-tools bind-utils epel-release
+    #yum -y install https://repo.mysql.com/mysql80-community-release-el7-1.noarch.rpm
+    #rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql
+    #yum -y install curl zlib-devel curl-devel openssl-devel httpd-devel apr-devel apr-util-devel mysql-devel ftp wget ImageMagick-devel gcc-c++ patch readline readline-devel zlib libyaml-devel libffi-devel make bzip2 autoconf automake libtool bison subversion sqlite-devel
+    #yum -y install htop bzip2
+  SHELL
+end

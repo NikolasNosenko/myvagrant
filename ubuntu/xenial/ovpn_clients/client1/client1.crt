@@ -1,0 +1,67 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=NL, ST=N/A, L=N/A, O=Freeadmin LLC, CN=Freeadmin LLC CA/emailAddress=mnosenko@freeadmin.pp.ua
+        Validity
+            Not Before: Jun  6 10:24:29 2018 GMT
+            Not After : Jun  3 10:24:29 2028 GMT
+        Subject: C=NL, ST=N/A, L=N/A, O=Freeadmin LLC, CN=client1/emailAddress=mnosenko@freeadmin.pp.ua
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:c0:3f:a0:33:84:05:25:72:47:73:db:b8:65:a6:
+                    ea:6c:5f:c3:ca:99:18:2a:76:3f:77:de:cd:26:4c:
+                    bf:c9:76:d8:73:19:32:2b:6d:ab:c6:a9:25:f7:3d:
+                    5f:ea:85:74:c0:8e:db:f2:20:59:34:88:58:8e:10:
+                    f4:0b:96:8b:e0:ee:e0:a2:2f:35:2e:1a:2d:86:82:
+                    f4:9e:ed:c9:1b:10:f6:1b:c7:a8:b5:35:6d:2d:c0:
+                    77:c4:15:56:d5:0f:21:6f:d4:11:56:4f:91:f8:fa:
+                    8e:81:a0:2e:17:3f:d8:39:19:fb:09:5a:0c:81:9b:
+                    95:58:65:f5:b7:af:c5:72:1b
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                OpenSSL Generated Certificate
+            X509v3 Subject Key Identifier: 
+                27:2D:C4:51:BC:FA:2B:15:71:AB:AF:0D:DA:6D:8E:30:A3:81:87:11
+            X509v3 Authority Key Identifier: 
+                keyid:A5:68:96:F5:7D:78:77:01:F1:4B:96:38:9F:96:96:CB:C2:8D:81:0F
+                DirName:/C=NL/ST=N/A/L=N/A/O=Freeadmin LLC/CN=Freeadmin LLC CA/emailAddress=mnosenko@freeadmin.pp.ua
+                serial:F0:C9:50:AB:3A:7D:73:E5
+
+    Signature Algorithm: sha1WithRSAEncryption
+         b9:11:83:48:9c:3b:00:5d:b2:83:b3:33:d4:9a:c2:f7:9b:aa:
+         b5:c3:bd:4d:4e:40:c1:e7:a4:52:23:96:4e:41:1f:5e:ee:a6:
+         53:8e:54:a7:ff:9d:cb:61:8f:ff:ed:c1:f4:e0:ae:e3:2b:23:
+         98:f7:bd:ac:c0:ec:69:23:a3:5c:40:03:22:a3:4c:e6:64:96:
+         23:a6:b2:f1:13:85:ec:fc:e1:5b:c7:ad:15:27:52:f9:1c:58:
+         6c:a3:ad:d9:80:4d:8c:c8:13:66:0b:8c:e1:bf:19:cb:b3:8c:
+         1d:06:27:88:7d:13:35:50:ee:e8:01:f7:76:72:a5:10:1d:80:
+         c7:15
+-----BEGIN CERTIFICATE-----
+MIIDkzCCAvygAwIBAgIBAjANBgkqhkiG9w0BAQUFADCBhTELMAkGA1UEBhMCTkwx
+DDAKBgNVBAgTA04vQTEMMAoGA1UEBxMDTi9BMRYwFAYDVQQKEw1GcmVlYWRtaW4g
+TExDMRkwFwYDVQQDExBGcmVlYWRtaW4gTExDIENBMScwJQYJKoZIhvcNAQkBFhht
+bm9zZW5rb0BmcmVlYWRtaW4ucHAudWEwHhcNMTgwNjA2MTAyNDI5WhcNMjgwNjAz
+MTAyNDI5WjB8MQswCQYDVQQGEwJOTDEMMAoGA1UECBMDTi9BMQwwCgYDVQQHEwNO
+L0ExFjAUBgNVBAoTDUZyZWVhZG1pbiBMTEMxEDAOBgNVBAMTB2NsaWVudDExJzAl
+BgkqhkiG9w0BCQEWGG1ub3NlbmtvQGZyZWVhZG1pbi5wcC51YTCBnzANBgkqhkiG
+9w0BAQEFAAOBjQAwgYkCgYEAwD+gM4QFJXJHc9u4ZabqbF/DypkYKnY/d97NJky/
+yXbYcxkyK22rxqkl9z1f6oV0wI7b8iBZNIhYjhD0C5aL4O7goi81LhothoL0nu3J
+GxD2G8eotTVtLcB3xBVW1Q8hb9QRVk+R+PqOgaAuFz/YORn7CVoMgZuVWGX1t6/F
+chsCAwEAAaOCARkwggEVMAkGA1UdEwQCMAAwLAYJYIZIAYb4QgENBB8WHU9wZW5T
+U0wgR2VuZXJhdGVkIENlcnRpZmljYXRlMB0GA1UdDgQWBBQnLcRRvPorFXGrrw3a
+bY4wo4GHETCBugYDVR0jBIGyMIGvgBSlaJb1fXh3AfFLljiflpbLwo2BD6GBi6SB
+iDCBhTELMAkGA1UEBhMCTkwxDDAKBgNVBAgTA04vQTEMMAoGA1UEBxMDTi9BMRYw
+FAYDVQQKEw1GcmVlYWRtaW4gTExDMRkwFwYDVQQDExBGcmVlYWRtaW4gTExDIENB
+MScwJQYJKoZIhvcNAQkBFhhtbm9zZW5rb0BmcmVlYWRtaW4ucHAudWGCCQDwyVCr
+On1z5TANBgkqhkiG9w0BAQUFAAOBgQC5EYNInDsAXbKDszPUmsL3m6q1w71NTkDB
+56RSI5ZOQR9e7qZTjlSn/53LYY//7cH04K7jKyOY972swOxpI6NcQAMio0zmZJYj
+prLxE4Xs/OFbx60VJ1L5HFhso63ZgE2MyBNmC4zhvxnLs4wdBieIfRM1UO7oAfd2
+cqUQHYDHFQ==
+-----END CERTIFICATE-----
